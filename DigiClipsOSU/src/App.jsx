@@ -33,7 +33,7 @@ function Header() {
 
 function Main() {
   return (
-    <main className='bg px-20 py-5'>
+    <main className='bg px-20 py-5 flex flex-col gap-y-3'>
       <div className='grid grid-cols-3'>
         <ContentCard title='What Is Our Project?' className='col-span-1'>
           <p>DigiClips is our project partner who</p>
@@ -50,11 +50,17 @@ function Main() {
           <p>A JavaScript library for building user interfaces</p>
         </ContentCard>
       </div>
+      <ContentCard title='Project Use'>
+        <p>As this website is DigiClips' main administration tool to manage company resources this website is not available for public use. DigiClips does have a public website for potential customers and those wishing to learn more at&nbsp;
+          <a href='http://www.digiclipsinc.com' target='_blank' rel='noreferrer' className='hover:text-white hover:cursor-pointer underline'>digiclipsinc.com</a>
+          .
+        </p>
+      </ContentCard>
       <div className='grid grid-cols-3'>
-        <ContentCard title='Learn More' className="col-span-2">
+        <ContentCard title='Documentation' className="col-span-1">
           <p>A JavaScript library for building user interfaces</p>
         </ContentCard>
-        <ContentCard title='Documentation' className="col-span-1">
+        <ContentCard title='Learn More' className="col-span-2">
           <p>A JavaScript library for building user interfaces</p>
         </ContentCard>
       </div>
