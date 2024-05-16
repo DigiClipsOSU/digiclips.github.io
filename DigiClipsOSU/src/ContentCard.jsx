@@ -1,8 +1,8 @@
-function ContentCard(props) {
+function ContentCard({ title, children, className }) {
     return (
-        <div>
-            <h2 className="text-header font-semibold">{props.title}</h2>
-            {props.children}
+        <div className={className}>
+            <h2 className="text-header font-semibold">{title}</h2>
+            {children}
         </div>
     )
 }
