@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,15 +21,15 @@ export default App
 
 function Header() {
   return (
-    <header>
-      <h1>Hello Vite + React!</h1>
+    <header className='mx-20'>
+      <h1 className='text-lheader font-bold'>DigiClips OSU</h1>
     </header>
   )
 }
 
 function Main() {
   return (
-    <main>
+    <main className='bg px-20'>
       <h2>The count is:</h2>
     </main>
   )
@@ -38,7 +37,7 @@ function Main() {
 
 function Footer() {
   return (
-    <footer>
+    <footer className='mx-20'>
     </footer>
   )
 }
