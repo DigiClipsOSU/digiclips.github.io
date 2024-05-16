@@ -26,14 +26,14 @@ export default App
 function Header() {
   return (
     <header className='mx-20'>
-      <h1 className='text-lheader font-bold'>DigiClips OSU</h1>
+      <h1 className='text-lheader font-bold py-2'>DigiClips OSU</h1>
     </header>
   )
 }
 
 function Main() {
   return (
-    <main className='bg px-20 py-5 flex flex-col gap-y-3'>
+    <main className='bg px-20 py-8 flex flex-col gap-y-3'>
       <div className='grid grid-cols-3'>
         <ContentCard title='What Is Our Project?' className='col-span-1'>
           <p>DigiClips is our project partner who</p>
