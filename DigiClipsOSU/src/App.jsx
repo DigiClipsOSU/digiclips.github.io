@@ -46,15 +46,23 @@ function Main() {
         <ContentCard title='Project Purpose' className="col-span-1">
           <p>A JavaScript library for building user interfaces</p>
         </ContentCard>
-        <ContentCard title='Project Purpose' className="col-span-2">
+        <ContentCard title='Problems Solved' className="col-span-2">
           <p>A JavaScript library for building user interfaces</p>
         </ContentCard>
       </div>
-      <ContentCard title='Learn More'>
-        <p>A JavaScript library for building user interfaces</p>
-      </ContentCard>
+      <div className='grid grid-cols-3'>
+        <ContentCard title='Learn More' className="col-span-2">
+          <p>A JavaScript library for building user interfaces</p>
+        </ContentCard>
+        <ContentCard title='Documentation' className="col-span-1">
+          <p>A JavaScript library for building user interfaces</p>
+        </ContentCard>
+      </div>
       <ContentCard title='Project Use'>
-        <p>A JavaScript library for building user interfaces</p>
+        <p>As this website is DigiClips' main administration tool to manage company resources this website is not available for public use. DigiClips does have a public website for potential customers and those wishing to learn more at&nbsp;
+          <a href='http://www.digiclipsinc.com' target='_blank' rel='noreferrer' className='hover:text-white hover:cursor-pointer underline'>digiclipsinc.com</a>
+          .
+        </p>
       </ContentCard>
       <ContentCard title='Source Code'>
         <p>
