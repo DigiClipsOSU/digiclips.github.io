@@ -86,7 +86,10 @@ function Footer() {
     <footer className='mx-20 py-8'>
       <div className='mx-auto w-fit'>
         <a href='https://github.com/DigiClipsOSU/digiclipsOSU.github.io' target='_blank' rel='noreferrer' className='hover:text-white hover:cursor-pointer'>
-          <GitHubIcon className='h-14 w-auto' />
+          <div className='flex gap-3'>
+            <p className='text-xxl font-semibold'>Source Code:</p>
+            <GitHubIcon className='h-12 w-auto' />
+          </div>
         </a>
       </div>
     </footer>
