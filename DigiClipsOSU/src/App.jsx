@@ -6,7 +6,7 @@ import ContentCard from './ContentCard'
 // icons
 import { AiOutlineGithub as GitHubIcon } from "react-icons/ai";
 
-function App() {
+export default function App() {
   const [count, setCount] = useState(0)
 
   return (
@@ -19,8 +19,6 @@ function App() {
     </div>
   )
 }
-
-export default App
 
 
 function Header() {
