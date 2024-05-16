@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+// other components
+import ContentCard from './ContentCard'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,7 +31,13 @@ function Header() {
 function Main() {
   return (
     <main className='bg px-20'>
-      <h2>The count is:</h2>
+      <ContentCard title='Project Personnel' content='A JavaScript library for building user interfaces' />
+      <ContentCard title='Project Purpose' content='A JavaScript library for building user interfaces' />
+      <ContentCard title='React' content='A JavaScript library for building user interfaces' />
+      <ContentCard title='React' content='A JavaScript library for building user interfaces' />
+      <ContentCard title='Learn More' content='A JavaScript library for building user interfaces' />
+      <ContentCard title='Project Use' content='A JavaScript library for building user interfaces' />
+      <ContentCard title='Source Code' content='A JavaScript library for building user interfaces' />
     </main>
   )
 }
