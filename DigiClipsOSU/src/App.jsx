@@ -34,13 +34,25 @@ function Header() {
 function Main() {
   return (
     <main className='bg px-20 py-5'>
-      <ContentCard title='Project Personnel' content='A JavaScript library for building user interfaces' />
-      <ContentCard title='Project Purpose' content='A JavaScript library for building user interfaces' />
-      <ContentCard title='React' content='A JavaScript library for building user interfaces' />
-      <ContentCard title='React' content='A JavaScript library for building user interfaces' />
-      <ContentCard title='Learn More' content='A JavaScript library for building user interfaces' />
-      <ContentCard title='Project Use' content='A JavaScript library for building user interfaces' />
-      <ContentCard title='Source Code' content='A JavaScript library for building user interfaces' />
+      <ContentCard title='Project Personnel'>
+        <p>A JavaScript library for building user interfaces</p>
+      </ContentCard>
+      <ContentCard title='Project Purpose'>
+        <p>A JavaScript library for building user interfaces</p>
+      </ContentCard>
+      <ContentCard title='Learn More'>
+        <p>A JavaScript library for building user interfaces</p>
+      </ContentCard>
+      <ContentCard title='Project Use'>
+        <p>A JavaScript library for building user interfaces</p>
+      </ContentCard>
+      <ContentCard title='Source Code'>
+        <p>
+          Our project partner keeps their source code private. You can learn more about our project partners on their website at&nbsp;
+          <a href='http://www.digiclipsinc.com' target='_blank' rel='noreferrer' className='hover:text-white hover:cursor-pointer underline'>digiclipsinc.com</a>
+          .
+        </p>
+      </ContentCard>
     </main>
   )
 }
