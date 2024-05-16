@@ -3,6 +3,9 @@ import { useState } from 'react'
 // other components
 import ContentCard from './ContentCard'
 
+// icons
+import { AiOutlineGithub as GitHubIcon } from "react-icons/ai";
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -30,7 +33,7 @@ function Header() {
 
 function Main() {
   return (
-    <main className='bg px-20'>
+    <main className='bg px-20 py-5'>
       <ContentCard title='Project Personnel' content='A JavaScript library for building user interfaces' />
       <ContentCard title='Project Purpose' content='A JavaScript library for building user interfaces' />
       <ContentCard title='React' content='A JavaScript library for building user interfaces' />
@@ -44,7 +47,12 @@ function Main() {
 
 function Footer() {
   return (
-    <footer className='mx-20'>
+    <footer className='mx-20 py-8'>
+      <div className='mx-auto w-fit'>
+        <a href='https://github.com/DigiClipsOSU/digiclipsOSU.github.io' target='_blank' rel='noreferrer' className='hover:text-white hover:cursor-pointer'>
+          <GitHubIcon className='h-14 w-auto' />
+        </a>
+      </div>
     </footer>
   )
 }
