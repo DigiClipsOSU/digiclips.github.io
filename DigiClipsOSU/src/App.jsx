@@ -24,7 +24,7 @@ export default function App() {
 function Header() {
   return (
     <header className='mx-20'>
-      <h1 className='text-lheader font-bold py-2'>DigiClips OSU</h1>
+      <h1 className='text-lheader font-bold py-2'>DigiClips - Oregon State</h1>
     </header>
   )
 }
