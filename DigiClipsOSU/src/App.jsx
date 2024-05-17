@@ -61,6 +61,9 @@ function Main() {
           <p>A JavaScript library for building user interfaces</p>
         </ContentCard>
       </div>
+      <ContentCard title='Our Competitors' className="col-span-2">
+          <p>As this is an internal tool for DigiClips' staff we have no direct competitors to our product. The only goal with this project was to upgrade their website to something that is easier to use, more secure, and provides more functionality.</p>
+        </ContentCard>
       <ContentCard title='Documentation and Extra Info' className="col-span-1">
         <p>This website isn't public but for more information about DigiClips you can check out&nbsp;
           <a href='http://www.digiclipsinc.com' target='_blank' rel='noreferrer' className='hover:text-white hover:cursor-pointer underline'>digiclipsinc.com</a>
