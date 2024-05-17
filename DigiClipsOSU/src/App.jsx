@@ -32,12 +32,25 @@ function Header() {
 function Main() {
   return (
     <main className='bg px-20 py-8 flex flex-col gap-y-3'>
+      <ContentCard title='Our Project Partner' className='col-span-1'>
+          <p>DigiClips is our project partner who provides textual recording for public media such as broadcast TV and radio. They allow searching for specific text in their media sources as well as getting a transcript from scheduled media.</p>
+        </ContentCard>
       <div className='grid grid-cols-3'>
         <ContentCard title='What Is Our Project?' className='col-span-1'>
-          <p>DigiClips is our project partner who</p>
+          <p>We were tasked with helping upgrade DigiClips' administration website. Which is an internal tool that allows them to manage users, data, and company resources from a single web application.</p>
         </ContentCard>
         <ContentCard title='Project Personnel' className='col-span-2'>
-          <p>A JavaScript library for building user interfaces</p>
+          <ul>
+            <li>
+              <p>Grant Conklin</p>
+            </li>
+            <li>
+              <p>Zane Cole Gant</p>
+            </li>
+            <li>
+              <p>James Walter</p>
+            </li>
+          </ul>
         </ContentCard>
       </div>
       <div className='grid grid-cols-3'>
