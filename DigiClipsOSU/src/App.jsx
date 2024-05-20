@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Helmet } from 'react-helmet'
 
 // other components
 import ContentCard from './ContentCard'
@@ -10,13 +11,18 @@ export default function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="text bg-black min-h-screen w-full">
-      <div>
-        <Header />
-        <Main />
-        <Footer />
+    <>
+      <Helmet>
+        <title>DigiClips - Oregon State</title>
+      </Helmet>
+      <div className="text bg-black min-h-screen w-full">
+        <div>
+          <Header />
+          <Main />
+          <Footer />
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 
